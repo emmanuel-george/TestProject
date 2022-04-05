@@ -1,80 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-04-05T17:13:10.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="trTeR1y-okXXLenH8_8M" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-05T17:22:05.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="IJBBCRVThQVp91PvrqXt" version="17.4.0" type="github">
   <diagram id="queUSnzOFaTcNsG4NoB8" name="Page-1">
-    <mxGraphModel dx="2297" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2548" dy="1980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kgD6vg8KvZ7phLuvpiB6-1" value="Thermostat&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="119.5" width="30" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="kgD6vg8KvZ7phLuvpiB6-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="kgD6vg8KvZ7phLuvpiB6-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-40" y="159.5" as="sourcePoint" />
-            <mxPoint x="20" y="159.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kgD6vg8KvZ7phLuvpiB6-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5" y="129.5" width="130" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="kgD6vg8KvZ7phLuvpiB6-4" value="&amp;lt;&amp;lt;external i/p device&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5" y="134.5" width="130" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="kgD6vg8KvZ7phLuvpiB6-5" value="Thermostat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="159.5" width="60" height="29" as="geometry" />
-        </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-6" value="Motion Sensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="219.5" width="30" height="60" as="geometry" />
+          <mxGeometry x="-230" y="96.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-7" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="kgD6vg8KvZ7phLuvpiB6-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-40" y="259.5" as="sourcePoint" />
-            <mxPoint x="20" y="259.5" as="targetPoint" />
+            <mxPoint x="-190" y="136.5" as="sourcePoint" />
+            <mxPoint x="-130" y="136.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5" y="229.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="-145" y="106.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-9" value="&amp;lt;&amp;lt;external i/p device&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5" y="234.5" width="130" height="30" as="geometry" />
+          <mxGeometry x="-145" y="111.5" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-10" value="Motion Sensor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="259.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-110" y="136.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-16" value="Water Leak Sensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="319.5" width="30" height="60" as="geometry" />
+          <mxGeometry x="-230" y="236.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-17" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="kgD6vg8KvZ7phLuvpiB6-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-40" y="359.5" as="sourcePoint" />
-            <mxPoint x="20" y="359.5" as="targetPoint" />
+            <mxPoint x="-190" y="276.5" as="sourcePoint" />
+            <mxPoint x="-130" y="276.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5" y="329.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="-145" y="246.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-19" value="&amp;lt;&amp;lt;external i/p device&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5" y="334.5" width="130" height="30" as="geometry" />
+          <mxGeometry x="-145" y="251.5" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-20" value="Water Leak Sensor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="359.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="-120" y="276.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-21" value="Automilage Sensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="419.5" width="30" height="60" as="geometry" />
+          <mxGeometry x="-230" y="393.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-22" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="kgD6vg8KvZ7phLuvpiB6-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-40" y="459.5" as="sourcePoint" />
-            <mxPoint x="20" y="459.5" as="targetPoint" />
+            <mxPoint x="-190" y="433.5" as="sourcePoint" />
+            <mxPoint x="-130" y="433.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5" y="429.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="-145" y="403.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-24" value="&amp;lt;&amp;lt;external i/p device&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5" y="434.5" width="130" height="30" as="geometry" />
+          <mxGeometry x="-145" y="408.5" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-25" value="Automilage Sensor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="459.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="-120" y="433.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kgD6vg8KvZ7phLuvpiB6-448" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="139.5" width="430" height="250" as="geometry" />
@@ -265,12 +247,6 @@
             <mxPoint x="710.9" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Ufg1nvPIbCbdAw9HvlZ-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="kgD6vg8KvZ7phLuvpiB6-4" target="kgD6vg8KvZ7phLuvpiB6-448" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="329.5" as="sourcePoint" />
-            <mxPoint x="158.71000000000004" y="202.75" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7Ufg1nvPIbCbdAw9HvlZ-16" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kgD6vg8KvZ7phLuvpiB6-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="329.5" as="sourcePoint" />
@@ -317,6 +293,27 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="430" as="sourcePoint" />
             <mxPoint x="620" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVfnqsg5N_nS9RTVdz-K-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760.9" y="-80" width="130" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="cVfnqsg5N_nS9RTVdz-K-57" value="&amp;lt;&amp;lt;external i/p device&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760.9" y="-75" width="130" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="cVfnqsg5N_nS9RTVdz-K-58" value="Thermostat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="795.9" y="-50" width="60" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="cVfnqsg5N_nS9RTVdz-K-59" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kgD6vg8KvZ7phLuvpiB6-448" target="cVfnqsg5N_nS9RTVdz-K-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="130" as="sourcePoint" />
+            <mxPoint x="510" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVfnqsg5N_nS9RTVdz-K-60" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="cVfnqsg5N_nS9RTVdz-K-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="130" as="sourcePoint" />
+            <mxPoint x="510" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
