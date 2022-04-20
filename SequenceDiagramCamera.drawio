@@ -1,86 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T23:53:44.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="AYPOXG1woSAdIdfvsLNd" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-20T23:57:27.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="qtHZqFriAl2sU6MTLUUN" version="17.4.0" type="github">
   <diagram id="DXlaZhhKUyn6kZyrBd2b" name="Page-1">
-    <mxGraphModel dx="4203" dy="-3509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5526" dy="-2796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-2220" y="5140" width="1330" height="670" as="geometry" />
+        </mxCell>
         <mxCell id="SqxZ5YEgvBjvie_K91Qb-1" value="Home Security" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-472" y="5000" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-5" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="490" y="5085" width="100" height="880" as="geometry" />
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-6" value="Stores the images" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" parent="SqxZ5YEgvBjvie_K91Qb-5" target="SqxZ5YEgvBjvie_K91Qb-12" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="45" y="220" as="sourcePoint" />
-            <mxPoint x="125" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-7" value="Alerts the resident if suspicious person hangs about house&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" parent="SqxZ5YEgvBjvie_K91Qb-5" target="SqxZ5YEgvBjvie_K91Qb-15" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="55" y="350" as="sourcePoint" />
-            <mxPoint x="135" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-8" value="Analyzes the Images" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" parent="SqxZ5YEgvBjvie_K91Qb-5" source="SqxZ5YEgvBjvie_K91Qb-12" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="55" y="450" as="sourcePoint" />
-            <mxPoint x="45" y="450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-9" value="Activates alarm if a person breaks out into house" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" parent="SqxZ5YEgvBjvie_K91Qb-5" target="SqxZ5YEgvBjvie_K91Qb-13" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="55" y="520" as="sourcePoint" />
-            <mxPoint x="135" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-10" value="Notifies Resident if person breaks out into the house" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" parent="SqxZ5YEgvBjvie_K91Qb-5" target="SqxZ5YEgvBjvie_K91Qb-15" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="55" y="580" as="sourcePoint" />
-            <mxPoint x="135" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-11" value="Records the info about time&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" parent="SqxZ5YEgvBjvie_K91Qb-5" target="SqxZ5YEgvBjvie_K91Qb-12" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="55" y="760" as="sourcePoint" />
-            <mxPoint x="985" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-12" value=":DB/Storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="725" y="5085" width="100" height="880" as="geometry" />
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-13" value=":Alarm" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="985" y="5085" width="100" height="880" as="geometry" />
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-15" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="5125" width="20" height="840" as="geometry" />
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-16" value="Resident" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="5080" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-17" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1685" y="5125" width="20" height="840" as="geometry" />
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-18" value="Police Station" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="5080" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-19" value="Analyzes the Images" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" parent="1" target="SqxZ5YEgvBjvie_K91Qb-5" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="775" y="5365" as="sourcePoint" />
-            <mxPoint x="705" y="5375" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-20" value="Notifies the police station if a person breaks out into the house" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" parent="1" target="SqxZ5YEgvBjvie_K91Qb-17" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="545" y="5725" as="sourcePoint" />
-            <mxPoint x="625" y="5725" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SqxZ5YEgvBjvie_K91Qb-21" value="Timer records the time to activate the alarm" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" parent="1" target="SqxZ5YEgvBjvie_K91Qb-5" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1255" y="5785" as="sourcePoint" />
-            <mxPoint x="705" y="5795" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="SqxZ5YEgvBjvie_K91Qb-29" value="&amp;lt;&amp;lt;external i/p device&amp;gt;&amp;gt;&lt;br&gt;:camera" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-2270" y="5061" width="220" height="50" as="geometry" />
@@ -149,12 +77,12 @@
           <mxGeometry x="-180" y="5062.5" width="190" height="890" as="geometry" />
         </mxCell>
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-7" value="&amp;lt;&amp;lt;timer&amp;gt;&amp;gt;&lt;br&gt;:recordTime" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="130" y="5062.5" width="190" height="50" as="geometry" />
+          <mxGeometry x="106" y="5062.5" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zoZ87TUTOFkKlzGeyd7U-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="5940" as="sourcePoint" />
-            <mxPoint x="710" y="5550" as="targetPoint" />
+            <mxPoint x="196" y="5940" as="sourcePoint" />
+            <mxPoint x="686" y="5550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
@@ -208,7 +136,7 @@
             <mxPoint x="-650" y="5580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zoZ87TUTOFkKlzGeyd7U-25" value="2: alert resident via smartphone about suspicious activity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-25" value="2: alert resident via smartphone if thsuspicious activity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-900" y="5510" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1" target="zoZ87TUTOFkKlzGeyd7U-5">
@@ -232,7 +160,7 @@
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1380" y="5870" as="sourcePoint" />
-            <mxPoint x="220" y="5870" as="targetPoint" />
+            <mxPoint x="200" y="5870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-31" value="2.c: record the time&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
@@ -246,6 +174,18 @@
         </mxCell>
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-33" value="3: Camera continue scanning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-2140" y="5860" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-35" value="Loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-2220" y="5140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-36" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1383.0000000000005" y="5543.75" as="sourcePoint" />
+            <mxPoint x="-2170" y="5543.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-37" value="found not suspicious keep scanning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-2130" y="5492.5" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
