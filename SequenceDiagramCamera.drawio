@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T23:37:39.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="mXXXh54xt2UpbF5N8UlM" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-20T23:53:44.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="AYPOXG1woSAdIdfvsLNd" version="17.4.0" type="github">
   <diagram id="DXlaZhhKUyn6kZyrBd2b" name="Page-1">
-    <mxGraphModel dx="3259" dy="-4018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4203" dy="-3509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,6 +124,15 @@
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-2" value="&amp;lt;&amp;lt;control object&amp;gt;&amp;gt;&lt;br&gt;:smartHomeControl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-1470" y="5061" width="175" height="865" as="geometry" />
         </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="zoZ87TUTOFkKlzGeyd7U-2" target="zoZ87TUTOFkKlzGeyd7U-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="229" as="sourcePoint" />
+            <mxPoint x="130" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-15" value="1.2: send images" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="zoZ87TUTOFkKlzGeyd7U-2">
+          <mxGeometry x="-120" y="189" width="210" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-3" value="&amp;lt;&amp;lt;external device&amp;gt;&amp;gt;&lt;br&gt;:smartPhone" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-740" y="5065" width="180" height="50" as="geometry" />
         </mxCell>
@@ -156,6 +165,87 @@
         </mxCell>
         <mxCell id="zoZ87TUTOFkKlzGeyd7U-10" value="1: Camera scanning input" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-2140" y="5160" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1890" y="5240" as="sourcePoint" />
+            <mxPoint x="-1620" y="5240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-13" value="1.1: image, captured date" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1870" y="5200" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1" source="zoZ87TUTOFkKlzGeyd7U-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1400" y="5360" as="sourcePoint" />
+            <mxPoint x="-1173" y="5360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-17" value="1.3: store images in database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="5320" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1" source="zoZ87TUTOFkKlzGeyd7U-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1610" y="5440" as="sourcePoint" />
+            <mxPoint x="-910" y="5440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-19" value="1.4: analyses images" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="5400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-910" y="5506" as="sourcePoint" />
+            <mxPoint x="-1383.4285714285716" y="5506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-23" value="1.5: send result" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="5470" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1380" y="5580" as="sourcePoint" />
+            <mxPoint x="-650" y="5580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-25" value="2: alert resident via smartphone about suspicious activity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="5510" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1" target="zoZ87TUTOFkKlzGeyd7U-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1380" y="5680" as="sourcePoint" />
+            <mxPoint x="-650" y="5670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-27" value="2.a: activate alarm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-635" y="5610" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1" target="zoZ87TUTOFkKlzGeyd7U-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1380" y="5770" as="sourcePoint" />
+            <mxPoint x="-375.50000000000045" y="5770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-29" value="2.b: notify police station" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="5720" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1380" y="5870" as="sourcePoint" />
+            <mxPoint x="220" y="5870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-31" value="2.c: record the time&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="5830" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1383" y="5907" as="sourcePoint" />
+            <mxPoint x="-2170" y="5907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zoZ87TUTOFkKlzGeyd7U-33" value="3: Camera continue scanning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-2140" y="5860" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
