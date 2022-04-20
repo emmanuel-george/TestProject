@@ -1,1 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T00:26:34.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" version="17.4.0" etag="D8NWI9w0oDTzk5ATCERR" type="github"><diagram id="yXrdei3feL_6IKJ38tXs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-21T00:46:50.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="zubEKy-t-kao1br1J5Rv" version="17.4.0" type="github">
+  <diagram id="yXrdei3feL_6IKJ38tXs" name="Page-1">
+    <mxGraphModel dx="2710" dy="-4627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-1" value="View Electricity Use and Bill" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="6085" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="70" y="6200" width="20" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-3" value="1: selects View Electric Usage&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" edge="1" parent="C8SO_RskQbcLsY3TmYbk-2" target="C8SO_RskQbcLsY3TmYbk-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="120" as="sourcePoint" />
+            <mxPoint x="90" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-4" value="Resident" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="35" y="6135" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-5" value="&amp;lt;&amp;lt;user interaction&amp;gt;&amp;gt;&lt;br&gt;:customer interaction" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="153" y="6130" width="330" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-14" value="5:&amp;nbsp;&lt;span style=&quot;font-size: 18px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Displays the bill for specific period&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="C8SO_RskQbcLsY3TmYbk-5">
+          <mxGeometry x="180" y="410" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-7" value="&amp;lt;&amp;lt;state dependent control&amp;gt;&amp;gt;&lt;br&gt;:smartHomeControl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="510" y="6130" width="270" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-11" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" edge="1" parent="C8SO_RskQbcLsY3TmYbk-7" target="C8SO_RskQbcLsY3TmYbk-5">
+          <mxGeometry x="-1" y="-596" width="80" relative="1" as="geometry">
+            <mxPoint x="137" y="460" as="sourcePoint" />
+            <mxPoint x="-80" y="460" as="targetPoint" />
+            <mxPoint x="595" y="556" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-9" value="&amp;lt;&amp;lt;ledger&amp;gt;&amp;gt;&lt;br&gt;:BlockChain Ledgers" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="900" y="6130" width="170" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-10" value="4: send the electricity use and bill" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="990" y="6507" as="sourcePoint" />
+            <mxPoint x="644.0714285714284" y="6507" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-13" value="2: selects time period&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="316.5" y="6363" as="sourcePoint" />
+            <mxPoint x="644.5" y="6363" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C8SO_RskQbcLsY3TmYbk-8" value="3: fetch electricity bill for given period" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="643.5" y="6411" as="sourcePoint" />
+            <mxPoint x="984.5" y="6411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
