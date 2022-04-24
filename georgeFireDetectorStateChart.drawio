@@ -1,1 +1,158 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T00:04:13.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="KlhXK8uVFKU0hT2-fDtO" type="github"><diagram id="seyDO4-wxgzZC9itgzrF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-25T00:28:56.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="bkAdVslVFelOTm3rFonB" version="17.4.6" type="github">
+  <diagram id="seyDO4-wxgzZC9itgzrF" name="Page-1">
+    <mxGraphModel dx="3330" dy="1337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-1" value="Fire Detector&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="100" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aOr6tbd9TkYkK0zfE8DE-4" target="aOr6tbd9TkYkK0zfE8DE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-4" value="fire detector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-5" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="aOr6tbd9TkYkK0zfE8DE-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="169.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aOr6tbd9TkYkK0zfE8DE-8" target="aOr6tbd9TkYkK0zfE8DE-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="469.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-8" value="smoke detector interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-11" value="recording firelaram data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-12" value="fire detector started / fire detector detecting smoke" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="270" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-13" value="detects smoke/ send smoke data&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aOr6tbd9TkYkK0zfE8DE-35" target="aOr6tbd9TkYkK0zfE8DE-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="693" as="sourcePoint" />
+            <mxPoint x="425" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-17" value="Algorithm Analysing smokedata" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-18" value="smoke data received / run algorithm to check if there is smoke or not" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="810" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aOr6tbd9TkYkK0zfE8DE-35" target="aOr6tbd9TkYkK0zfE8DE-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="950" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="270" y="670" />
+              <mxPoint x="270" y="1080" />
+              <mxPoint x="425" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-20" value="Activating sprinkler device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-21" value="fire detected / activate sprinkler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1030" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-29" value="turning on alarm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="aOr6tbd9TkYkK0zfE8DE-35" target="aOr6tbd9TkYkK0zfE8DE-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="960" as="sourcePoint" />
+            <mxPoint x="435" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-31" value="fire detected&amp;nbsp; / turn on alarm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="600" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-35" value="Smart Home Control" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.715;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aOr6tbd9TkYkK0zfE8DE-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="451" y="890" as="sourcePoint" />
+            <mxPoint x="481" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-38" value="algorithm performed/ sendResult&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="750" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aOr6tbd9TkYkK0zfE8DE-29" target="aOr6tbd9TkYkK0zfE8DE-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="760" as="sourcePoint" />
+            <mxPoint x="250" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-42" value="turning on timer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="aOr6tbd9TkYkK0zfE8DE-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.57" y="795" as="sourcePoint" />
+            <mxPoint x="99.57" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="aOr6tbd9TkYkK0zfE8DE-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="910.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-45" value="Notifying fire Station" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aOr6tbd9TkYkK0zfE8DE-35" target="aOr6tbd9TkYkK0zfE8DE-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="510" as="sourcePoint" />
+            <mxPoint x="630" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="660" />
+              <mxPoint x="630" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-47" value="no smoke detected/ keep scanning&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-48" value="alarm activated&amp;nbsp; / record the fire data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="690" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-49" value="fire data recorded&amp;nbsp; / turn&lt;span style=&quot;font-size: 11px&quot;&gt;&amp;nbsp;timer on to check if smoke is still detecting or not&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%225.4%20timer%20to%20check%20if%20smoke%20is%20still%20detecting%20or%20not%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D18%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-320%22%20y%3D%225720%22%20width%3D%22210%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="830" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-50" value="after 5 min still fire detected / inform fire station&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%225.4%20timer%20to%20check%20if%20smoke%20is%20still%20detecting%20or%20not%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D18%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-320%22%20y%3D%225720%22%20width%3D%22210%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="970" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-51" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aOr6tbd9TkYkK0zfE8DE-45" target="aOr6tbd9TkYkK0zfE8DE-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="1110" as="sourcePoint" />
+            <mxPoint x="-260" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="1090" />
+              <mxPoint x="-60" y="750" />
+              <mxPoint x="-60" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-54" value="fire station informed/ keep scanning&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
