@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T00:28:56.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="bkAdVslVFelOTm3rFonB" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T00:29:32.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="yJ6gi9fkdRnWCIHJ9nUf" version="17.4.6" type="github">
   <diagram id="seyDO4-wxgzZC9itgzrF" name="Page-1">
-    <mxGraphModel dx="3330" dy="1337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3826" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
             <mxPoint x="425" y="843" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aOr6tbd9TkYkK0zfE8DE-17" value="Algorithm Analysing smokedata" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aOr6tbd9TkYkK0zfE8DE-17" value="Algorithm Analysing smoke data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aOr6tbd9TkYkK0zfE8DE-18" value="smoke data received / run algorithm to check if there is smoke or not" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
