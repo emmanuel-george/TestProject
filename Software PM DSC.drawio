@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T04:43:05.356Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dxz9CWuwi2jieYX3a6yX" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T18:38:42.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="N-siAeOvUk5r21aqzUz8" version="20.2.1" type="github">
   <diagram id="_v0U6XHrunSkltYkED8f" name="Page-1">
-    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="914" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,13 +40,13 @@
         <mxCell id="Sih1Pf5mhUMgSErxuZL1-14" value="Analysis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="390" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Sih1Pf5mhUMgSErxuZL1-15" value="Documenting stake holder requirement" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Sih1Pf5mhUMgSErxuZL1-15" value="SRS document,&lt;br&gt;&amp;nbsp;feasibility report,&lt;br&gt;Throwaway Prototype" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="440" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sih1Pf5mhUMgSErxuZL1-16" value="Design" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="390" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Sih1Pf5mhUMgSErxuZL1-17" value="User Interface design, prototyping&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Sih1Pf5mhUMgSErxuZL1-17" value="Design specification document&lt;br&gt;Technical design document" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sih1Pf5mhUMgSErxuZL1-18" value="Build" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -148,13 +148,13 @@
         <mxCell id="Sih1Pf5mhUMgSErxuZL1-39" value="Deliverable charter tructure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="560" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mArkjWxA3VDJdQjTRHFx-1" value="Maintenance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mArkjWxA3VDJdQjTRHFx-1" value="Maintenance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="390" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mArkjWxA3VDJdQjTRHFx-2" value="Software upgrades" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mArkjWxA3VDJdQjTRHFx-2" value="Software upgrades" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mArkjWxA3VDJdQjTRHFx-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="mArkjWxA3VDJdQjTRHFx-5" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="920" y="390" as="sourcePoint" />
             <mxPoint x="920" y="360" as="targetPoint" />
